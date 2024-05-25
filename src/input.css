@@ -1,0 +1,38 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.headphone {
+    background-image: url(../src/imgs/bse-card-img.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .kids-bg {
+    background-image: url(../src/imgs/bg-kids\ copy.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .phone-bg {
+    background-image: url(../src/imgs/phone-bg.png);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .slide {
+    animation: anime 30s infinite linear;
+  }
+  .last-bg{
+      background-image: url(../src/imgs/harmograph-small-p-500.webp);
+      height: 30vh;
+  }
+  
+  
+  
+  @keyframes anime {
+    from {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
